@@ -4,7 +4,7 @@ import numpy as np
 
 os.chdir("C:\\Users\\user\\Documents\\Python\\Heroku-Demo-master\\Diabetic")
 
-FullRaw = pd.read_csv("kaggle_diabetes.csv")
+FullRaw = pd.read_csv("diabetes.csv")
 
 FullRaw.isnull().sum()
 
